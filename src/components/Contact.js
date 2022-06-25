@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="container">
                 <div className="h-full flex flex-col space-y-12">
                     <h2 className="text-center text-4xl font-bold" data-aos="fade">Contacto</h2>
-                    <p className="text-center text-lg" data-aos="fade" data-aos-delay="250">Actualmente me encuentro en busco de mi primer empleo IT, y si estas interesad@ en contactarme te dejo los siguiente medios!</p>
+                    <p className="text-center text-lg" data-aos="fade" data-aos-delay="250">Actualmente me encuentro en busca de mi primer empleo IT, y si estas interesad@ en contactarme te dejo los siguiente medios!</p>
                     <div className="w-full flex flex-row justify-center space-x-8" data-aos="fade" data-aos-delay="500">
                         <a className="flex flex-row items-center font-medium space-x-2" href="mailto:guidosabik1@gmail.com" target="_blank">
                             <img
