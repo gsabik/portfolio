@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import profilePhoto from "../assets/me.jpg";
+import profilePhoto from "../assets/me.png";
 
 const Hero = () => {
     return (
