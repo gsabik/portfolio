@@ -1,0 +1,32 @@
+---
+import profilePhoto from "../../public/assets/profile.png";
+---
+
+<section class="flex h-screen items-center justify-center">
+	<div class="container m-4">
+		<div class="grid grid-cols-12 w-full">
+			<div class="col-span-12 self-center lg:col-span-6">
+				<div class="flex flex-col space-y-4">
+					<h1 class="text-5xl">Guido Sabik</h1>
+					<h2 class="text-2xl text-gray-300">Frontend Developer</h2>
+					<div class="flex">
+						<p class="text-lg leading-loose">
+							Soy un desarrollador autodidacta de <span class="font-semibold">Buenos Aires, Argentina</span>. Me apasiona el desarrollo ya que puedo crear o contribuir en proyectos que faciliten el día a día de las personas, ya sean herramientas para uso profesional o personal.
+						</p>
+					</div>
+					<div class="flex flex-row mt-4 space-x-4">
+						<a class="border-2 border-white font-semibold px-6 py-2 rounded-md hover:cursor-pointer">Contacto</a>
+						<a class="bg-white font-semibold px-6 py-2 text-black rounded-md hover:cursor-pointer">Proyectos</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-start-10 col-end-13">
+				<img
+					alt="Foto de perfil"
+					class="rounded-2xl"
+					src={profilePhoto}
+				/>
+			</div>
+		</div>
+	</div>
+</section>

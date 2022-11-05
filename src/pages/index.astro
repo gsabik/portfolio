@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import Hero from "../components/Hero.astro";
+import Skills from "../components/Skills.astro";
+import Projects from "../components/Projects.astro";
+import Contact from "../components/Contact.astro";
+
+import "../styles.css";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<script src="https://kit.fontawesome.com/e1a5cb1715.js" crossorigin="anonymous"></script>
+		<title>Guido Sabik</title>
+	</head>
+	<BaseLayout>
+		<Hero/>
+		<Skills/>
+		<Projects/>
+		<Contact/>
+	</BaseLayout>
+</html>
