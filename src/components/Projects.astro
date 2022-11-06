@@ -1,5 +1,6 @@
 ---
 import { projects } from "../data/projects";
+import ProjectCard from "./ProjectCard.astro";
 ---
 
 <section class="flex items-center justify-center" id="projects">
@@ -8,25 +9,7 @@ import { projects } from "../data/projects";
 			<h2 class="font-bold text-4xl">Proyectos</h2>
 			<div class="grid grid-cols-12 gap-14 pt-10">
 				{
-					projects.map(({ title, description, technologies, github, visit }) => (
-						<div class="bg-[#14151a] col-span-12 border-0 md:col-span-6 p-4 rounded-lg shadow-xs hover:bg-[#1a1c23]">
-							<div class="flex flex-col h-full justify-center">
-								<div class="flex flex-row justify-between w-full">
-									<h3 class="font-medium pb-8 text-3xl">{title}</h3>
-									<div class="flex flex-row space-x-4">
-										<a class="py-2" href={github} rel="noreferrer" target="_blank">
-											<i class="fa-brands fa-github h-8"/>
-										</a>
-										<a class="py-2" href={visit} rel="noreferrer" target="_blank">
-											<i class="fa-solid fa-arrow-up-right-from-square h-8"/>
-										</a>
-									</div>
-								</div>
-								<p class="leading-loose pb-4 text-lg">{description}</p>
-								<p class="text-lg text-gray-400">{technologies}</p>
-							</div>
-						</div>
-					))
+					projects.map(project => <ProjectCard {...project}/>)
 				}
 			</div>
 			<div class="flex justify-center pt-10 w-full">
