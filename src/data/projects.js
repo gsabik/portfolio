@@ -1,7 +1,7 @@
 export const projects = [
 	{
 		title: "Lisa Showroom",
-		description: "eCommerce de zapatillas de básquet. No hay mucha variedad, pero si buenos precios",
+		description: "eCommerce de zapatillas de básquet. No hay mucha variedad, pero si buenos precios.",
 		technologies: "Create React App, React JS, React Router, Chakra UI y Firebase.",
 		github: "https://github.com/gsabik/lisa-showroom",
 		visit: "https://lisa-showroom.vercel.app/",
