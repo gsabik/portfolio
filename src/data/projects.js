@@ -22,7 +22,7 @@ export const projects = [
 	},
 	{
 		title: "Adviency",
-		description: "Lista de regalos de navidad. La idea general del challenge es agregar una feature en los 24 días de duración que el mismo tiene. Cada día, hay que rehacer el proyeco desde cero.",
+		description: "Lista de regalos de navidad. La idea general del challenge es agregar una feature en los 24 días de duración que el mismo tiene. Cada día, hay que rehacer el proyecto desde cero.",
 		technologies: "Vite, React JS, React Icons, React Snowfall y Chakra UI.",
 		github: "https://github.com/gsabik/adviency",
 		visit: "https://adviency-christmas.vercel.app",
